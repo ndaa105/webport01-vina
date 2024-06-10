@@ -1,0 +1,45 @@
+#home {
+  background-image: linear-gradient(to bottom left, #8697c7, #8697c7);
+}
+
+#jumbotron {
+  padding-top: 6rem;
+  background-color: #070707;
+}
+
+#projects {
+  padding-top: 2rem;
+  background-color: #070707;
+}
+
+section {
+  padding-top: 7rem;
+}
+
+.carousel {
+  max-height: 600px; /* Atur tinggi keseluruhan carousel sesuai keinginan Anda */
+  max-width: 900px;
+  overflow: hidden; /* Pastikan gambar tidak melewati batas carousel */
+}
+
+.carousel-item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  object-fit: cover; /* Agar gambar diperkecil dan memenuhi area */
+  max-width: 400px; /* Pastikan lebar gambar tidak melebihi carousel */
+  max-height: 600px; /* Pastikan tinggi gambar tidak melebihi carousel */
+  margin: auto;
+}
+
+.round-image {
+  border-radius: 50%;
+  box-shadow: 0 6px 10px rgba(2, 2, 2, 0.2);
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
